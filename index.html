@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!------- Custom css ------->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!---- Bootstrap Javascript Bundle --->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <title>Bootstrap 5 - Corporate Website</title>
+  </head>
+  <body>
+    <!---------- Navbar --------->
+    <nav
+      class="navbar navbar-expand-md fixed-top navbar-light border-bottom"
+      style="background-color: #fff"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="./assets/images/mashuptemplate.svg" alt="Brand-image" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse mt-5 mt-md-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary download" href="./download.html"
+                >Downloads</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="extra-margin"></div>
+    <!------- Hero section ------->
+    <div class="hero-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Lorem, ipsum dolor.</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+              magni, maiores, nulla dignissimos natus reiciendis veritatis
+              accusamus dolorum inventore illum aperiam amet facere officia
+              quidem eaque possimus quia deleniti? Nihil, quas iste. Velit neque
+              perferendis, fugit illo optio ipsum doloribus.
+            </p>
+            <button class="btn btn-primary">Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------- Feature section ------->
+    <div class="feature-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center">
+              <h1 class="big-title">Vivamus laoreet</h1>
+              <p class="my-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut
+                deserunt dicta possimus eius ut doloribus?
+                <br />
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                eaque rem nam numquam, nesciunt autem?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="icon-container text-center">
+              <i class="fa-regular fa-comment"></i>
+            </div>
+            <div class="text-center"><h3>Consectetur</h3></div>
+            <div class="mt-4">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium omnis, id corporis repellendus est commodi dolorum
+                deserunt ad sit porro saepe, nemo nesciunt at eum consequuntur
+                deleniti aperiam!
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icon-container text-center">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="text-center"><h3>Consectetur</h3></div>
+            <div class="mt-4">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                illo doloribus incidunt pariatur, deleniti possimus explicabo
+                aliquid adipisci neque odit quisquam quae eveniet asperiores,
+                veniam rerum labore dolorem repudiandae quibusdam?
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icon-container text-center">
+              <i class="fa-regular fa-bell"></i>
+            </div>
+            <div class="text-center"><h3>Consectetur</h3></div>
+            <div class="mt-4">
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Consequatur hic quos iure nam omnis quis eaque fuga corporis
+                animi veniam et tenetur, sint, earum reprehenderit. Quisquam a
+                tenetur necessitatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------- Carousel section ------->
+    <div class="carousel-section border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active carousel-indicator-item"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  class="active carousel-indicator-item"
+                  aria-current="true"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  class="active carousel-indicator-item"
+                  aria-current="true"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/kvistholt-photography-oZPwn40zCK4-unsplash.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/chris-ried-bN5XdU-bap4-unsplash.jpg"
+                    alt="Second slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/markus-spiske-iar-afB0QQw-unsplash.jpg"
+                    alt="Third slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Call to action section -->
+    <div class="call-to-action-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="text-center">
+              <h2>Vivamus laoreet</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dignissimos eaque vitae incidunt mollitia sequi, aut quas
+                quaerat blanditiis nulla reprehenderit fugiat, consequatur odio
+                quam. Nihil commodi voluptas suscipit nulla unde at ex
+                dignissimos inventore excepturi.
+              </p>
+              <a href="#" class="btn btn-primary btn-lg" title=""> Download </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Specification section -->
+    <div class="specification-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              class="img-fluid"
+              src="./assets/images/kari-shea-1SAnrIxw5OY-unsplash.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-5 offset-md-1 my-3">
+            <ul class="specs">
+              <li>
+                <h3>Dui augue</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Labore velit pariatur hic quisquam culpa recusandae.
+                </p>
+              </li>
+              <li>
+                <h3>Malesuada</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Labore velit pariatur hic quisquam culpa recusandae.
+                </p>
+              </li>
+              <li>
+                <h3>Bibendum</h3>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Labore velit pariatur hic quisquam culpa recusandae.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row brands">
+          <div class="col-md-4">
+            <img
+              class="img-fluid"
+              src="./assets/images/brand-logo/png-transparent-lorem-ipsum-logo-landtechnik-schunck-brand-a-prokot-elektrotechnik-digitalization-angle-text-rectangle-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              class="img-fluid"
+              src="./assets/images/brand-logo/png-transparent-lorem-ipsum-logo-landtechnik-schunck-brand-a-prokot-elektrotechnik-digitalization-angle-text-rectangle-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4">
+            <img
+              class="img-fluid"
+              src="./assets/images/brand-logo/png-transparent-lorem-ipsum-logo-landtechnik-schunck-brand-a-prokot-elektrotechnik-digitalization-angle-text-rectangle-removebg-preview.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------- Footer ---------->
+    <footer class="border-top">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>About Us</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur similique vitae neque mollitia autem provident eum
+              praesentium aut doloribus reiciendis, error culpa ut blanditiis
+              assumenda animi? Earum sequi fugit eos?
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Do you like? Share this!!</h4>
+            <p>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </p>
+            <p>
+              <small>
+                &copy; Untitled | Website created with
+                <a
+                  href="#"
+                  class="link-like-text"
+                  title="Create Website with free html template"
+                  >Mashup Template</a
+                >/<a
+                  href="http://www.unsplash.com"
+                  class="link-like-text"
+                  title="Beautify Free Images"
+                  >Unsplash</a
+                >
+              </small>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Subscribe to newsletter</h4>
+            <div class="input-group mb-3 subscribe-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Recipient's email"
+                aria-label="Recipient's email"
+                aria-describedby="basic-addon2"
+              />
+              <button class="input-group-text" id="basic-addon2">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

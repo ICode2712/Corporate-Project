@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!------- Custom css ------->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!---- Bootstrap Javascript Bundle --->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <title>Bootstrap 5 - Corporate Website</title>
+  </head>
+  <body>
+    <!---------- Navbar --------->
+    <nav
+      class="navbar navbar-expand-md fixed-top navbar-light border-bottom"
+      style="background-color: #fff"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="./assets/images/mashuptemplate.svg" alt="Brand-image" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse mt-5 mt-md-0"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="btn btn-primary download" href="./download.html"
+                >Downloads</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="extra-margin"></div>
+    <!------- Contact section ------->
+    <div class="contact-section">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-xs-12">
+            <div class="map">
+              <img
+                src="./assets/images/Screenshot_133.png"
+                alt="google-map"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="col-xs-12 my-5">
+            <div class="row">
+              <div class="col-md-6">
+                <form class="contact-form">
+                  <div class="form-group">
+                    <input
+                      type="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Full name"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subject"
+                      placeholder="Subject"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      name="textarea"
+                      id="textarea"
+                      class="form-control"
+                      rows="3"
+                      placeholder="Enter your message"
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg">
+                    Send
+                  </button>
+                </form>
+              </div>
+              <div class="col-md-5 mt-5 mt-md-0 offset-md-1">
+                <h3>Head Office</h3>
+                <div class="mt-3">
+                  <p>
+                    Av. de la Reina Victoria, 49, Chamberí<br />
+                    28003 Madrid, Spain
+                  </p>
+                </div>
+                <div>
+                  <p>
+                    contact@mybusiness.com <br />
+                    +34913161745
+                  </p>
+                </div>
+                <div>
+                  <h3 class="mt-3">Employment</h3>
+                  <p class="mt-3">
+                    To apply for a job with our team, Please fell free to send
+                    your linkedin profile link on your CV to :
+                    employment@mybusiness.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---------- Footer ---------->
+    <footer class="border-top">
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4>About Us</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur similique vitae neque mollitia autem provident eum
+              praesentium aut doloribus reiciendis, error culpa ut blanditiis
+              assumenda animi? Earum sequi fugit eos?
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Do you like? Share this!!</h4>
+            <p>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </p>
+            <p>
+              <small>
+                &copy; Untitled | Website created with
+                <a
+                  href="#"
+                  class="link-like-text"
+                  title="Create Website with free html template"
+                  >Mashup Template</a
+                >/<a
+                  href="http://www.unsplash.com"
+                  class="link-like-text"
+                  title="Beautify Free Images"
+                  >Unsplash</a
+                >
+              </small>
+            </p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Subscribe to newsletter</h4>
+            <div class="input-group mb-3 subscribe-group">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Recipient's email"
+                aria-label="Recipient's email"
+                aria-describedby="basic-addon2"
+              />
+              <button class="input-group-text" id="basic-addon2">OK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

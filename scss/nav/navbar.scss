@@ -1,0 +1,17 @@
+.navbar {
+  height: 80px;
+
+  li{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 1.25rem;
+  }
+
+  .download {
+    text-transform: uppercase;
+    padding: 0.5rem;
+    background-image: linear-gradient(90deg, #8b62ff, #3b1bff);
+    border: none;
+    outline: none;
+  }
+}
